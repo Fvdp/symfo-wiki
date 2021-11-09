@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %} {% block title %} WIKI Signin {% endblock %} {%
+block content %}
+<div class="text-center form-signin">
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Adresse email</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="email"
+        aria-label="email"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="password"
+        aria-label="password"
+      />
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+      <label class="form-check-label" for="exampleCheck1">Validation</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Valider</button>
+  </form>
+</div>
+{% endblock %}

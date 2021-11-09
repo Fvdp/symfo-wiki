@@ -1,0 +1,44 @@
+div.container {
+  margin-top: 20px;
+}
+
+div.ad-title {
+  padding: 2em;
+  background-size: cover;
+  background-position: center center;
+}
+
+div.ad-title h1,
+div.ad-title p {
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.carousel-caption {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+  margin-right: auto !important;
+}
+
+.moncompte {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
